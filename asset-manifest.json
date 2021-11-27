@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/leaguemaker/static/css/main.be5394a8.chunk.css",
+    "main.js": "/leaguemaker/static/js/main.6609b8b1.chunk.js",
+    "main.js.map": "/leaguemaker/static/js/main.6609b8b1.chunk.js.map",
+    "runtime-main.js": "/leaguemaker/static/js/runtime-main.fc9bc53d.js",
+    "runtime-main.js.map": "/leaguemaker/static/js/runtime-main.fc9bc53d.js.map",
+    "static/js/2.4e5c67e6.chunk.js": "/leaguemaker/static/js/2.4e5c67e6.chunk.js",
+    "static/js/2.4e5c67e6.chunk.js.map": "/leaguemaker/static/js/2.4e5c67e6.chunk.js.map",
+    "index.html": "/leaguemaker/index.html",
+    "precache-manifest.a6d5dfcea8b51378fc85fd362cfa0684.js": "/leaguemaker/precache-manifest.a6d5dfcea8b51378fc85fd362cfa0684.js",
+    "service-worker.js": "/leaguemaker/service-worker.js",
+    "static/css/main.be5394a8.chunk.css.map": "/leaguemaker/static/css/main.be5394a8.chunk.css.map",
+    "static/js/2.4e5c67e6.chunk.js.LICENSE.txt": "/leaguemaker/static/js/2.4e5c67e6.chunk.js.LICENSE.txt",
+    "static/media/bat.svg": "/leaguemaker/static/media/bat.09e1553e.svg",
+    "static/media/check.svg": "/leaguemaker/static/media/check.3a65ca85.svg",
+    "static/media/logo.svg": "/leaguemaker/static/media/logo.5f761130.svg",
+    "static/media/logotxt.svg": "/leaguemaker/static/media/logotxt.178488a9.svg",
+    "static/media/stat.svg": "/leaguemaker/static/media/stat.dbbe494b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc9bc53d.js",
+    "static/js/2.4e5c67e6.chunk.js",
+    "static/css/main.be5394a8.chunk.css",
+    "static/js/main.6609b8b1.chunk.js"
+  ]
+}
