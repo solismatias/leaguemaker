@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--main-white);
+}
+.header__span {
+  background-color: var(--main-blue);
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card__info-button {
+  color: var(--main-white);
+  background: none;
+  border: none;
+  font-size: 35px;
+  position: relative;
+  left: 43%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  border: 1px solid var(--main-white);
+  border-radius: 5px;
+  width: 300px;
+  min-height: 550px;
+  margin: 10px auto;
+}
+.hero__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hero__portrait {
+  width: 90%;
+  position: relative;
+  top: -20px;
+}
+.hero__name {
+  font-size: 2rem;
+}
+.hero__stats {
+  display: grid;
+  grid-template-columns: 85px 0.7fr 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.team__stats {
+  display: grid;
+  grid-template-columns: 110px 0.9fr 55px;
+  align-items: center;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.card__plus {
+  font-size: 5rem;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+.card__plus:hover {
+  color: var(--main-green);
+}
+.powerstats {
+  margin: 20px 0;
+}
+.averages__title {
+  font-size: 2rem;
+}
+.averages__info {
+  display: flex;
+  margin: 20px 0;
+  max-width: 350px;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}

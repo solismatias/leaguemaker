@@ -1,0 +1,54 @@
+.back-button {
+  width: 50px;
+}
+
+.wellcome {
+  /* margin-left: 30px; */
+  margin-top: 5vh;
+}
+
+.wellcome__title {
+  font-size: 4rem;
+}
+
+.wellcome__text {
+  color: var(--main-grey);
+  font-size: 1.5rem;
+}
+
+.form {
+  /* background-color: tomato; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  /* justify-content: space-around; */
+}
+
+.form__field {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vh 0;
+  /* background-color: turquoise; */
+  max-width: 500px;
+  width: 100%;
+}
+
+.form__input {
+  background: none;
+  border: none;
+  color: var(--main-white);
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--main-white);
+  width: 90%;
+}
+
+.fa-user,
+.fa-lock {
+  font-size: 2rem;
+}
+
+.form__error-msg {
+  color: red;
+  border-bottom: 2px solid red;
+}

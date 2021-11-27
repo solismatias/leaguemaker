@@ -1,0 +1,40 @@
+.heroinfo {
+  background-color: var(--main-black);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  padding: 30px 30px 0 30px;
+  overflow-y: auto;
+}
+.heroinfo__overlay {
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(39, 59, 95, 0.75);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+}
+.heroinfo__info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 0 60px 0;
+  font-size: 1.5rem;
+  min-height: 50%;
+}
+.heroinfo__button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--main-red);
+}
+
+.heroinfo__button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0px 60px var(--main-red);
+}
