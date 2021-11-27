@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/leaguemaker/static/css/main.be5394a8.chunk.css",
-    "main.js": "/leaguemaker/static/js/main.958e81ee.chunk.js",
-    "main.js.map": "/leaguemaker/static/js/main.958e81ee.chunk.js.map",
+    "main.js": "/leaguemaker/static/js/main.140432ef.chunk.js",
+    "main.js.map": "/leaguemaker/static/js/main.140432ef.chunk.js.map",
     "runtime-main.js": "/leaguemaker/static/js/runtime-main.fc9bc53d.js",
     "runtime-main.js.map": "/leaguemaker/static/js/runtime-main.fc9bc53d.js.map",
     "static/js/2.4e5c67e6.chunk.js": "/leaguemaker/static/js/2.4e5c67e6.chunk.js",
     "static/js/2.4e5c67e6.chunk.js.map": "/leaguemaker/static/js/2.4e5c67e6.chunk.js.map",
     "index.html": "/leaguemaker/index.html",
-    "precache-manifest.bf823d42f80c36a4adc8929db6242b4c.js": "/leaguemaker/precache-manifest.bf823d42f80c36a4adc8929db6242b4c.js",
+    "precache-manifest.30bd9240c9fe6d878baed99d77095b70.js": "/leaguemaker/precache-manifest.30bd9240c9fe6d878baed99d77095b70.js",
     "service-worker.js": "/leaguemaker/service-worker.js",
     "static/css/main.be5394a8.chunk.css.map": "/leaguemaker/static/css/main.be5394a8.chunk.css.map",
     "static/js/2.4e5c67e6.chunk.js.LICENSE.txt": "/leaguemaker/static/js/2.4e5c67e6.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.fc9bc53d.js",
     "static/js/2.4e5c67e6.chunk.js",
     "static/css/main.be5394a8.chunk.css",
-    "static/js/main.958e81ee.chunk.js"
+    "static/js/main.140432ef.chunk.js"
   ]
 }
