@@ -26,7 +26,7 @@ const Login = () => {
             async function getToken() {
                 try {
                     // let URL = "http://challenge-react.alkemy.org/"
-                    let URL = "https://cors-everywhere.herokuapp.com/http://challenge-react.alkemy.org/"
+                    let URL = "https://cors-everywhere.herokuapp.com/http://challenge-react.alkemy.org/" // to fix CORS policy and Mixed Content issue
                     let response = await axios.post(URL, {
                         // email: "challenge@alkemy.org",
                         // password: "react"
