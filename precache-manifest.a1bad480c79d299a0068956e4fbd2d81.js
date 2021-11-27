@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "363f7ef9f1ae544e7fd0f8c3f407e824",
+    "revision": "cbac42fdc0a38c353c3533ee6088f305",
     "url": "/leaguemaker/index.html"
   },
   {
-    "revision": "23c163da43272b6097c9",
+    "revision": "e362885b51b6daee021c",
     "url": "/leaguemaker/static/css/main.be5394a8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leaguemaker/static/js/2.4e5c67e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23c163da43272b6097c9",
-    "url": "/leaguemaker/static/js/main.6609b8b1.chunk.js"
+    "revision": "e362885b51b6daee021c",
+    "url": "/leaguemaker/static/js/main.5a0a77bb.chunk.js"
   },
   {
     "revision": "e73994b87f37d6c0bd35",
