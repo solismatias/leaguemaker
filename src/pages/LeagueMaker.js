@@ -70,7 +70,7 @@ const LeagueMaker = () => {
         })
 
         if (temp === 0) {
-            return "power"
+            return "category"
         }
 
         let largestNum = statsPower.reduce(function (accumulatedValue, currentValue) {
