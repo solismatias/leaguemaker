@@ -36,7 +36,7 @@ const Login = () => {
                     let token = response.data.token
                     localStorage.setItem("userToken", token)
                     setLoginError(false)
-                    navigate("/home")
+                    navigate("/leaguemaker/home")
                 } catch (error) {
                     setLoginError(true) // if we get an error while login, we set this hook to true, so we can display the error message
                 }
@@ -50,16 +50,16 @@ const Login = () => {
                 <nav className="navbar">
                     <img src={logotxt} alt="logo league maker" />
                 </nav>
-                <Link to="/">
+                <Link to="/leaguemaker">
                     <button className="button back-button"><i className="fas fa-arrow-left"></i></button>
                 </Link>
                 <section className="wellcome">
                     <h1 className="wellcome__title">Hello!</h1>
-                    <p className="wellcome__text">Login to your account</p>
+                    <p className="wellcome__text">Log in to your account</p>
                 </section>
                 <form className="form" onSubmit={formik.handleSubmit}>
                     <div className="form__field">
-                        <i className="far fa-user"></i>
+                        <i className="far fa-user" />
                         <input
                             className="form__input"
                             placeholder="email"
@@ -87,7 +87,7 @@ const Login = () => {
                     </div>
                     {formik.touched.password && formik.errors.password ? <p className="form__error-msg">{formik.errors.password}</p> : null} {/* if we have some kind of error in the password field, it will be rendered here */}
                     {loginError ? <p className="form__error-msg">Unauthorized: Incorrect user email or password</p> : null} {/* if loginError is true, an error message will be displayed */}
-                    <button className="button button--homepage" type="submit">login</button>
+                    <button className="button button--homepage" type="submit">log in</button>
                 </form>
             </div>
 
