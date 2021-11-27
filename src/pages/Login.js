@@ -25,7 +25,9 @@ const Login = () => {
         onSubmit: (values) => {
             async function getToken() {
                 try {
-                    let response = await axios.post("http://challenge-react.alkemy.org/", {
+                    // let URL = "http://challenge-react.alkemy.org/"
+                    let URL = " https://cors-everywhere.herokuapp.com/http://challenge-react.alkemy.org/"
+                    let response = await axios.post(URL, {
                         // email: "challenge@alkemy.org",
                         // password: "react"
                         email: formik.values.email,
