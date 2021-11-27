@@ -26,7 +26,7 @@ const LeagueMaker = () => {
     useEffect(() => {
         let token = localStorage.getItem("userToken")
         if (!token) {
-            navigate("/leaguemaker/login") // if we dont have the token, we will be redirected to the login screen
+            navigate("/login") // if we dont have the token, we will be redirected to the login screen
         }
     })
 

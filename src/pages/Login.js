@@ -36,7 +36,7 @@ const Login = () => {
                     let token = response.data.token
                     localStorage.setItem("userToken", token)
                     setLoginError(false)
-                    navigate("/leaguemaker/home")
+                    navigate("/home")
                 } catch (error) {
                     setLoginError(true) // if we get an error while login, we set this hook to true, so we can display the error message
                 }
@@ -50,7 +50,7 @@ const Login = () => {
                 <nav className="navbar">
                     <img src={logotxt} alt="logo league maker" />
                 </nav>
-                <Link to="/leaguemaker">
+                <Link to="/">
                     <button className="button back-button"><i className="fas fa-arrow-left"></i></button>
                 </Link>
                 <section className="wellcome">

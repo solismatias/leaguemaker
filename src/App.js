@@ -15,10 +15,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/leaguemaker' element={<Wellcome />} />
-          <Route path='/leaguemaker/login' element={<Login />} />
+          <Route exact path='/' element={<Wellcome />} />
+          <Route path='/login' element={<Login />} />
           {/* <HeroContext.Provider> */}
-          <Route path='/leaguemaker/home' element={<LeagueMaker />} />
+          <Route path='/home' element={<LeagueMaker />} />
           {/* </HeroContext.Provider> */}
           <Route path='*' element={<Login />} />     {/* if we enter to an invalid URL we will be redirected to the login page  */}
         </Routes>

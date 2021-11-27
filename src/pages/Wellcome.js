@@ -24,7 +24,7 @@ const Wellcome = () => {
                     <InfoCard image={check} txt={"Find the perfect combination of powers"} />
                     <InfoCard image={stats} txt={"Inspect the general characteristics of your team"} />
                 </section>
-                <Link to="/leaguemaker/login"><button className="button button--homepage">Log In</button></Link>
+                <Link to="/login"><button className="button button--homepage">Log In</button></Link>
             </main>
         </>
     )
