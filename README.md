@@ -16,8 +16,8 @@ https://solismatias-leaguemaker.herokuapp.com/
 
 ⚠ por motivos del challenge, estos son los unicos datos validos para ingresar
 
-+ Email: challenge@alkemy.org
-+ Password: react
++ `Email: challenge@alkemy.org`
++ `Password: react`
 
 
 
