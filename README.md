@@ -1,4 +1,4 @@
-![Imgur](https://imgur.com/C6fRG8b.png)
+![Imgur](https://imgur.com/50cG9Sr.png)
 
 ## creador de equipos de superheroes 
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
