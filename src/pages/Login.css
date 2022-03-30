@@ -52,3 +52,16 @@
   color: red;
   border-bottom: 2px solid red;
 }
+
+.login__info {
+  width: fit-content;
+  color: var(--main-yellow);
+  border: 2px solid var(--main-yellow);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.login__ul {
+  list-style: none;
+}

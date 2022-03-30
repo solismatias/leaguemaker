@@ -89,6 +89,13 @@ const Login = () => {
                     {loginError ? <p className="form__error-msg">Unauthorized: Incorrect user email or password</p> : null} {/* if loginError is true, an error message will be displayed */}
                     <button className="button button--homepage" type="submit">log in</button>
                 </form>
+                <div className="login__info">
+                    <p>For reasons of this challenge, these are the only valid data to log in</p>
+                    <ul className="login__ul">
+                        <li>Email: challenge@alkemy.org</li>
+                        <li>Password: react</li>
+                    </ul>
+                </div>
             </div>
 
         </>
